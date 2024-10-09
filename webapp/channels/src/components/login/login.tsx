@@ -825,7 +825,7 @@ const Login = ({onCustomizeHeader}: LoginProps) => {
                         />
                     ) : (
                         <h1 className='login-body-message-title'>
-                            {formatMessage({id: 'login.title', defaultMessage: 'Log in to your account'})}
+                            {formatMessage({id: 'login.title', defaultMessage: 'Log in to your WOORI STORY'})}
                         </h1>
                     )}
                     {getMessageSubtitle()}

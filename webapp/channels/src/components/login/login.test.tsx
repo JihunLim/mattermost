@@ -101,7 +101,7 @@ describe('components/login/Login', () => {
         );
 
         expect(screen.queryByText('This server doesn’t have any sign-in methods enabled')).toBeVisible();
-        expect(screen.queryByText('Log in to your account')).not.toBeInTheDocument();
+        expect(screen.queryByText('Log in to your WOORI STORY')).not.toBeInTheDocument();
     });
 
     it('should match snapshot with base login', () => {
@@ -121,7 +121,7 @@ describe('components/login/Login', () => {
         );
 
         expect(screen.queryByText('This server doesn’t have any sign-in methods enabled')).not.toBeInTheDocument();
-        expect(screen.queryByText('Log in to your account')).toBeVisible();
+        expect(screen.queryByText('Log in to your WOORI STORY')).toBeVisible();
     });
 
     it('should handle session expired', async () => {

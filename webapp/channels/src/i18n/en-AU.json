@@ -4105,7 +4105,7 @@
   "login.session_expired": "Your session has expired. Please log in again.",
   "login.session_expired.notification": "Session Expired: Please sign in to continue receiving notifications.",
   "login.session_expired.title": "* {siteName} - Session Expired",
-  "login.subtitle": "Collaborate with your team in real-time",
+  "login.subtitle": "Collaborate with your team in real-time with Woori Story",
   "login.terms_rejected": "You must agree to the Terms of Use before accessing {siteName}. Please contact your System Administrator for more details.",
   "login.title": "Log in to your account",
   "login.userNotFound": "An account matching your login credentials could not be found.",
